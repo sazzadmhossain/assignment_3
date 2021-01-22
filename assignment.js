@@ -1,3 +1,8 @@
+// https://github.com/sazzadmhossain/assignment_3
+
+
+// kilometerToMeter Function
+
 function kilometerToMeter(distanceInKM) {
     if(distanceInKM >= 0) {
         var distanceInMeter = distanceInKM * 1000;
@@ -8,6 +13,9 @@ function kilometerToMeter(distanceInKM) {
     }
 }
 
+
+// budgetCalculator Function
+
 function budgetCalculator(clock, mobile, laptop) {
     if(clock >= 0 && mobile >=0 && laptop >= 0){
         var total = clock*50 + mobile*100 + laptop*500;
@@ -17,6 +25,10 @@ function budgetCalculator(clock, mobile, laptop) {
         return "You can't have any negative value";
     } 
 }
+
+
+// hotelCost Function
+
 function hotelCost(days) {
     if(days>=0 && days <= 10) {
         return days*100;
@@ -31,6 +43,9 @@ function hotelCost(days) {
         return "You can't have a negative value";
     }
 }
+
+
+// megaFriend Function
 
 function megaFriend(myArray=[]) {
     var largeName = '';
